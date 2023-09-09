@@ -1,0 +1,32 @@
+h1{
+    color: aquamarine;
+}
+
+.basico{
+    color: antiquewhite;
+    background-color: rgb(92, 24, 24);
+}
+body{
+    column-count: 1;
+}
+div{
+    position: relative;
+  top: 50px;
+  left: 150px;
+
+  width: 200px;
+  height: 250px;
+
+  text-align: justify;
+
+  border-style: dotted;
+  border-width: 2px;
+  border-color: black;
+  
+
+
+}
+div:hover{
+
+    background-color: rgba(0, 0, 0, 0.082);
+}

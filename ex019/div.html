@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div</title>
+    <style>
+        .exemplo1{
+            background-color: rgb(121, 129, 129);
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            display: inline-block;
+        }
+        
+        .exemplo1:hover{
+            background-color: yellow;
+
+        }
+
+        div > ul{
+            display: none;
+        }
+        p#menu:hover{
+            color: red;
+
+        }
+
+        div:hover > ul {
+            display: block;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="d1" class="exemplo1
+    " >1</div>
+    <div id="d2" class="exemplo1">2</div>
+    <div id="d3" class="exemplo1">3</div>
+    <br>
+    <h3>Outros exemplos com a pseudo classe e div :</h3>
+    <div id="ex2" class="exemplo2">
+        <p id="menu"><strog>MENU</strog></p>
+        <ul>
+            <li><a href="">opção 1</a></li>
+            <li>opção 2</li>
+            <li>opção 3</li>
+        </ul>
+    </div>
+</body>
+</html>
